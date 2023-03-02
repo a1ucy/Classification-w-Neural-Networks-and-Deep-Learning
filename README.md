@@ -1,1 +1,8 @@
 # Classification-w-Neural-Networks-and-Deep-Learning
+The layer definitions have been given in the demo code and please follow the steps to understand the principles of different layers.
+
+The dataset you will utilize for the classification task is a subset from the MNIST dataset. The demo code will randomly select four different categories and 500 training and 100 testing samples for each category. Therefore, the total size of the training and testing samples is 2000 and 400 respectively. The subset training and testing samples will be shuffled before providing to you so that you do not need to shuffle the data when doing the training process.
+
+For the evaluation code, the function name, function inputs, and the use of the functions have been given in the demo code. You are required to write the remaining part to make the function work properly and obtain the accuracy and loss for both training and testing samples.
+
+You are required to train the CNN with a fixed epoch number and initialization of parameters. The total epoch number should be 10 and the learning rate should be 0.001. The batch size for the training and testing process is set to 100 and 1 respectively. The number of feature maps in the convolutional layer should be 6 and the size of the filters is set to 5*5. The size of the pooling layer is 2*2 and the ReLU activation function is set to default. The number of neurons of the first fully-connected layer is set to 32. A cross-entropy loss with softmax activation function is utilized to train the CNN. All those mentioned parameters are set to default values in the demo code.
